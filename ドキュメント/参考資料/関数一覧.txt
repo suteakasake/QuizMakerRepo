@@ -1,0 +1,6 @@
+jsonRead                        テキスト                :   ファイル名を指定すると、そのファイルのテキストを返す
+getDocumentsDirectoryFileList   ファイル名              :   カテゴリを指定すると、そのカテゴリのファイル名を全て取得する
+getFileSettingList              [FileSetting]       :   カテゴリを指定すると、そのカテゴリのFileSettingクラスを全て返す
+getFileSettingJson              FileSetting         :   ファイル名を指定すると、そのファイルのFileSettingクラスを返す
+getQuestionSettingJson          QuestionSetting     :   ファイル名を指定すると、そのファイルのQuestionSettingクラスを返す
+jsonEncodeFileSetting

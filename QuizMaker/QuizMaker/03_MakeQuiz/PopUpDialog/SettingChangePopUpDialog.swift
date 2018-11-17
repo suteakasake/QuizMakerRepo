@@ -159,8 +159,9 @@ class SettingChangePopUpDialog: UIViewController {
     @objc func segmentAction(sender: Any) {
         // 問題形式番号を取得
         if let selectedIndex = (sender as AnyObject).selectedSegmentIndex {
-            //
+            // セグメントを切り替えた際に実行する関数
             segmentedChange(beforeSettingType: self.settingType)
+            // 基本設定を変更する
             self.settingType = selectedIndex
             // 編集ビューの更新
             changeEditView(settingType: self.settingType)

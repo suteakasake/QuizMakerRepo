@@ -1,0 +1,45 @@
+{
+    "data": {
+        "fileSetting": {
+            "fileNo": 1,
+            "title": "プレミアリーグ問題",
+            "description": "プレミアリーグに関する問題です",
+            "category": 0
+        },
+        "questionSetting": [
+            {
+                "questionNo": 1,
+                "type": "single",
+                "question": "ローマの英雄と呼ばれた選手はどの選手でしょうか？",
+                "questionCount": 4,
+                "answer": [
+                    "トッティ",
+                    "ルーニー",
+                    "Cロナウド",
+                    "ジェラード"
+                ]
+            },
+            {
+                "questionNo": 2,
+                "type": "multi",
+                "question": "次の選手のうち、ポジションがFWの選手を全て選びなさい。",
+                "questionCount": 4,
+                "answerCount": 3,
+                "answer": [
+                    "トッティ",
+                    "ルーニー",
+                    "Cロナウド",
+                    "ジェラード"
+                ]
+            },
+            {
+                "questionNo": 3,
+                "type": "write",
+                "question": "フランスの19才は？",
+                "answer": [
+                    "キリアン・ムバッペ・ロタン"
+                ]
+            }
+        ]
+    }
+}

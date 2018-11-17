@@ -183,10 +183,14 @@ class SettingChangePopUpDialog: UIViewController {
  ///////////////////////////////////////////////////////////////////////////////// */
 extension SettingChangePopUpDialog: UITextViewDelegate {
     
+    
+    /// テキストビューの編集前に呼ばれる
+    ///
+    /// - Parameter textView: textView
     func textViewDidBeginEditing(_ textView: UITextView) {
+        // セグメントの切り替えフラグをfalseにする
         segmentedChangeFlg = false
     }
-    
     
     /// テキストビューの編集終了時に呼ばれる
     ///

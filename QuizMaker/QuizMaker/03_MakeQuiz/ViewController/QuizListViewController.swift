@@ -127,9 +127,6 @@ extension QuizListViewController {
         // ポジティブボタン押下時に実行する関数
         let okFunc = DefaultButton(title: "変更する") {
             
-            // デリゲート起動前にセグメント切り替えフラグをfalseにする
-            vc.segmentedChangeFlg = false
-            
             // デリゲートを起動するために明示的にキーボードを閉じる処理を書く
             self.view.endEditing(true)
             
@@ -157,8 +154,7 @@ extension QuizListViewController {
             
             // カテゴリーが変更された場合
             if vc.beforeCategory != vc.fileSettingValue.category {
-                print("カテゴリーが変更されました")
-                // 前のコントローラー    : 配列から削除 → テーブルの更新
+                // 変更前のコントローラー : 配列から削除 → テーブルの更新
                 self.fileSettingList.remove(at: indexPath.row)
                 self.TableView.reloadData()
                 

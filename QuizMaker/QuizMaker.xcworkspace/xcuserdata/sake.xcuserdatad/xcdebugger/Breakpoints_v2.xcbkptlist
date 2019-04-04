@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QuizMaker/03_MakeQuiz/PopUpDialog/SettingChangePopUpDialog.swift"
-            timestampString = "564187851.3538229"
+            timestampString = "565360014.94506"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
@@ -144,22 +144,6 @@
             startingLineNumber = "548"
             endingLineNumber = "548"
             landmarkName = "keyboardDidHide(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "QuizMaker/03_MakeQuiz/ViewController/QuizListViewController.swift"
-            timestampString = "564188184.243093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
-            landmarkName = "showFileSettingChangePopup(indexPath:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
